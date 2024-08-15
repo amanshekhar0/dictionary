@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Dictionary</h1>
+        <div class="search-box">
+            <input type="text" class="word-input" placeholder="Enter a word">
+            <button class="search-btn">Search</button>
+        </div>
+        <div class="result">
+            <h2 class="word-title"></h2>
+            <button class="speaker-btn" style="display:none">
+                <img src="./medium-volume.png" alt="Pronounce">
+            </button>
+            <p class="definition"></p>
+            <div class="additional-data"></div>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>
